@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] array = { "Geek", "Brains", "is", "ok", "for", "sure" };
+string[] resultarray = new string[6];
+for (int i = 0; i < 6; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        resultarray[i] = array[i];
+
+    }
+    else
+    resultarray[i] = string.Empty;
+
+}
