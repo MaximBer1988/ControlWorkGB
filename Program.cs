@@ -11,3 +11,5 @@ for (int i = 0; i < 6; i++)
     resultarray[i] = string.Empty;
 
 }
+Console.Write($"Массив с элементами длиной до 3: [{String.Join(", ", resultarray)}]");
+Console.WriteLine();
